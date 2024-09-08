@@ -7,7 +7,7 @@ https://www.stereolabs.com/en-gr/developers
 
 ### ROS2 Build
 1. Create a folder
-2. Run 'colcon build' on the empty folder to initialize
+2. Run `colcon build` on the empty folder to initialize
 3. Create a src folder
 4. Clone the repository into the src folder
 5. Run 'rosdep update'
