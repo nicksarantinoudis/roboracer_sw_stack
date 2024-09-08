@@ -27,4 +27,13 @@ Make sure to read the build errors and address them accordingly.
 e.g. On a clean Ubuntu 22.04 asio_cmake_module was missing. 
 It can be simply installed through `sudo apt install ros_hubmle_asio_cmake_module`
 
+## Launch Files
+There are 4 useful `.launch` files which can be helful for testing
 
+1. `f1tenth_stack f1_tenth_gui.launch.py` -> Launches the control and sensors stack
+stack together with RViz in order to visualize the sensor input
+2. `f1tenth_stack f1_tenth_remote.launch.py` -> Launches the control and sensors stack only.
+Helpful for testing the car. 
+3. `f1tenth_stack rosbag_record.launch.py` -> Records all topics published in ROS bag format.
+Requires either 1 or 2 running already.
+4. `f1tenth_stack rosbag_record_no_camera.launch.py` -> Records all other topics except the camera. 
