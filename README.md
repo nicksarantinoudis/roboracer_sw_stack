@@ -28,7 +28,7 @@ e.g. On a clean Ubuntu 22.04 asio_cmake_module was missing.
 It can be simply installed through `sudo apt install ros_hubmle_asio_cmake_module`
 
 ## Launch Files
-There are 4 useful `.launch` files which can be helful for testing
+There are 4 useful `.launch` files which can be used for testing
 
 1. `f1tenth_stack f1_tenth_gui.launch.py` -> Launches the control and sensors stack
 stack together with RViz in order to visualize the sensor input
