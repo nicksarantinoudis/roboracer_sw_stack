@@ -1,4 +1,4 @@
-# f1tenth_2.0_sw_stack
+# f1tenth2.0_sw_stack
 An updated F1Tenth Software Stack for ROS2 Humble
 
 ## Installation Pre-Requisites
