@@ -1,6 +1,6 @@
-# f1tenth2.0_sw_stack
-An updated Software Stack for ROS2 Humble and the updated platform 
-based on F1 Tenth but using Jetson Orin Nano
+# 2.0tenth_sw_stack
+An updated Software Stack for ROS2 Humble and the updated 2.0Tenth platform
+i.e. a custom build upgrade of the F1Tenth platform
 
 ## Installation Pre-Requisites
 The ZED SDK must be pre-installed for a succesful build
@@ -8,12 +8,12 @@ https://www.stereolabs.com/en-gr/developers
 
 ## ROS2 Humble Build
 1. Create your workspace folder
-2. Run `colcon build` on the empty folder to initialize
-3. Create a src folder
-4. Clone the repository into the src folder
-5. Run `rosdep update`
-6. Run `rodep install --from-paths src -i -y`
-7. Run `colcon build`
+2. Create a src folder
+3. Run `colcon build` on the empty folder to initialize
+5. Clone the repository into the src folder
+6. Run `rosdep update`
+7. Run `rodep install --from-paths src -i -y`
+8. Run `colcon build`
 
 The build should be succesfully completed
 
