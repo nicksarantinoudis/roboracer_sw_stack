@@ -6,7 +6,7 @@ based on F1 Tenth but using Jetson Orin Nano
 The ZED SDK must be pre-installed for a succesful build
 https://www.stereolabs.com/en-gr/developers
 
-## ROS2 Build
+## ROS2 Humble Build
 1. Create your workspace folder
 2. Run `colcon build` on the empty folder to initialize
 3. Create a src folder
