@@ -1,6 +1,5 @@
-# 2.0tenth_sw_stack
-An updated Software Stack for ROS2 Humble and the updated 2.0Tenth platform
-i.e. a custom build upgrade of the F1Tenth platform
+# roboracer_sw_stack
+An updated Software Stack for ROS2 Humble and the upgraded RoboRacer platform
 
 ## Installation Pre-Requisites
 The ZED SDK must be pre-installed for a succesful build
@@ -36,7 +35,8 @@ There are 4 useful `.launch` files which can be used for testing
 1. `ros2 launch f1tenth_stack f1_tenth_gui.launch.py` -> Launches the control and sensors stack
 stack together with RViz in order to visualize the sensor input
 2. `ros2 launch f1tenth_stack f1_tenth_remote.launch.py` -> Launches the control and sensors stack only.
-Helpful for testing the car. 
+Helpful for testing the car through the Logitech F710 controller. 
 3. `ros2 launch f1tenth_stack rosbag_record.launch.py` -> Records all topics published in ROS bag format.
 Requires either 1 or 2 running already.
-4. `ros2 launch f1tenth_stack rosbag_record_no_camera.launch.py` -> Records all other topics except the camera. 
+4. `ros2 launch f1tenth_stack rosbag_record_no_camera.launch.py` -> Records all other topics except the camera
+to save storage space. 
